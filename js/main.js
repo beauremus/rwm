@@ -104,7 +104,7 @@ function draw(type) {
       left: 60
     }
     const width = targetElement.parentElement.clientWidth - margin.left - margin.right
-    const height = (targetElement.parentElement.clientHeight / 1.5) - margin.top - margin.bottom
+    const height = (targetElement.parentElement.clientHeight * 2) - margin.top - margin.bottom
 
     const xScale = d3.scaleLinear()
       .range([0, width]) // output
