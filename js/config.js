@@ -1,11 +1,16 @@
-const requests = []
+const requests = [];
 
-const settings = []
+const settings = [];
 
 const plots = [
   {
     id: 'rwm',
     device: 'E:LBMTWV[:3500]@P,67',
-    type: 'line'
-  }
-]
+    type: 'line',
+  },
+  {
+    id: 'rwm2',
+    device: 'E:LBMTWV[:3500]@P,67',
+    type: 'line',
+  },
+];
